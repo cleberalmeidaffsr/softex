@@ -8,4 +8,7 @@ elif (quantRodas == 4 and quantPessoas <=8 and pesoKg <=3500):
     print("Habilitação indicada: Tipo B");
 elif (quantRodas >= 4 and pesoKg >=3500 and pesoKg <= 6000):
     print("Habilitação indicada: Tipo C");
-elif ():
+elif (quantRodas >= 4 and quatPessoas >= 8):
+    print("Habilitação indicada: Tipo D");
+elif (quantRodas >= 4 and pesoKg >=6000):
+    print("Habilitação indicada: Tipo E");
