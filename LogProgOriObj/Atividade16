@@ -13,9 +13,5 @@ def calcular(number1, number2, operac):
 
 number1 = input("Digite um número: ")
 number2 = input("Digite o segundo número: ")
-operac = input("Qual operação você deseja fazer? 
-                + = soma
-                - = subtração
-                * = multiplicação
-                / = divisão ")
-calcular(number1, number2, operac)
+operac = input("Qual operação você deseja fazer?")
+             
