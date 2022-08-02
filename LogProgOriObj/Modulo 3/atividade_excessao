@@ -1,0 +1,21 @@
+erro = True
+nome = input("Insira seu nome completo: ")
+
+while erro:
+
+   try:
+
+       nascimento = int(input("Qual o seu ano de nascimento? "))
+
+       if (nascimento > 1921) and (nascimento < 2022):
+        idade = 2022 - nascimento
+        
+        print(f"Oi {nome} tudo bem? Vimos aqui e você vai ou fez {idade} esse ano!")
+
+        erro = False
+       else:
+
+           print("Você digitou de forma equivocada")
+
+   except:
+        print("Ocorreu um erro, tente novamente")
