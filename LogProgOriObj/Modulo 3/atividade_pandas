@@ -1,6 +1,8 @@
 from turtle import pd
-import pandas 
+import pandas as pd
 
-pandas.DataFrame = pandas.read_csv("base.csv")
+df = pd.read_csv("dados.csv")
 
-pandas.DataFrame.head()
+print(df["id"])
+
+print(df["id"][0])
