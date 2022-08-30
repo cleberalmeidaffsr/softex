@@ -1,4 +1,4 @@
-class Televisão:
+class televisao:
     def __init__(self, marca, polegadas, preço):
         self.marca = marca
         self.polegadas = polegadas
@@ -8,15 +8,15 @@ class Televisão:
             print('Aumentando volume')
         elif(volume == '-'):
             print('Diminuindo volume')
-    def ligar_televisão(self):
+    def ligar_televisao(self):
         print('Televisão ligada!')
 
-Televisão.ligar_televisão(True)
-televisão1 = Televisão('Samsung', '85 polegadas', '90.000 Reais')
-print(televisão1.marca)
-televisão2 = Televisão('Samsung', '32 polegadas', '1.288 Reais')
-print(televisão2.polegadas)
-televisão3 = Televisão('LG', '65 polegadas', '8.500 Reais')
-print(televisão3.preço)
+televisao.ligar_televisao(True)
+televisao1 = televisao('Samsung', '85 polegadas', '90.000 Reais')
+print(televisao1.marca)
+televisao2 = televisao('Samsung', '32 polegadas', '1.288 Reais')
+print(televisao2.polegadas)
+televisao3 = televisao('LG', '65 polegadas', '8.500 Reais')
+print(televisao3.preço)
 
-Televisão.mudar_volume(televisão1,'+')
+televisao.mudar_volume(televisao1,'+')
