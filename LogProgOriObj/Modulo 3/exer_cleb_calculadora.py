@@ -47,7 +47,7 @@ while rep_Cal == 's':
         rep_Cal = input('Você quer fazer outro calculo? (s - sim / n - não)')
         
         if rep_Cal == 'n':
-            print('Fechando programa. :(')
+            print('***Fechando programa. :( ***')
 
 
         
