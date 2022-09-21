@@ -1,25 +1,7 @@
 # uma calculadora simples!]
-
-rep_Cal = 's'
-
-def soma(x, y):
-    return x + y
-
-def subtra(x, y):
-    return x - y
-
-def multipl(x, y):
-    return x * y
-
-def divisao(x, y):
-    return x / y
-
-print('Selecione a operação:')
-print('1 - Adição')
-print('2 - Subtração')
-print('3 - Multiplicação')
-print('4 - Divisão')
-print('0 - Sair')
+import calc
+import os
+import time
 
 while rep_Cal == 's':
     escolha = input('Escolha a operação digitando o número correspondente (1/2/3/4/0): ')

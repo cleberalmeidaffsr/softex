@@ -1,0 +1,1 @@
+console.log("Estou usando o Visual Studio Code como ambiente.")
