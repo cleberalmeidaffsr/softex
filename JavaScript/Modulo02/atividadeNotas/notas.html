@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="Icon" type="image/x-icon" href="https://images.vexels.com/media/users/3/127358/isolated/preview/736663fe6f9e03fcb39ace9020c42b4c-icone-estacionario-da-calculadora.png">
+    <title>Escola Softex</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="center card-panel light-blue lighten-2 white-text z-depth-3">Escola Softex - Cálculo de Notas - Aluno</h2>
+        <div class="center">
+            <i class="material-icons medium">collections</i>
+        </div>        
+        <form class="container">
+            <fieldset>
+                <legend>Cálculo Média</legend>
+                <div class="container">
+                    <div class="row">                      
+                        <div class="input-field col s4">
+                            <input id="nota1" type="number" class="validate">
+                            <label for="nota1">1ª Nota: </label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="nota2" type="number" class="validate">
+                            <label for="nota2">2ª Nota: </label>
+                        </div> 
+                        <div class="input-field col s4">
+                            <input id="nota3" type="number" class="validate">
+                            <label for="nota3">3ª Nota: </label>
+                        </div> 
+                    </div>
+                    <div class="center">
+                        <button type="button" onclick="media();" class="hoverable">Média</button>
+                    </div>      
+                    <p id="media" class="center"></p>
+                </div>
+            </fieldset>
+        </form>
+        <form class="container">
+            <fieldset>
+                <legend>Cálculo Terceira Nota</legend>
+                <div class="container">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="nota01" type="number" class="validate">
+                            <label for="nota01">1ª Nota: </label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="nota02" type="number" class="validate">
+                            <label for="nota02">2ª Nota: </label>
+                        </div> 
+                    </div>
+                    <div class="center">
+                        <button type="button" onclick="terceiraNota();" class="hoverable">Falta Quanto?</button>
+                    </div>      
+                    <p id="nota03" class="center"></p>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="script.js"></script>
+</html>
