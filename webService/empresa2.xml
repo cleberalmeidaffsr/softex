@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body xmlns:m="http://www.minhaempresa.com/consultaCliente">
+    <m:consultaClienteResponse>
+        <m:nome>Cleber de Almeida</m:nome>
+        <m:endereco>Rua Marquês de pombal</m:endereco>
+        <m:telefone>81983159913</m:telefone>
+    </m:consultaClienteResponse>
+</soap:Body>
+</soap:Envelope>

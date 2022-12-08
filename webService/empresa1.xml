@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body xmlns:m="http://www.minhaempresa.com/consultaCliente">
+    <m:consultaClienteRequest>
+        <m:cpf>87963176498</m:cpf>
+    </m:consultaClienteRequest>
+</soap:Body>
+</soap:Envelope>
