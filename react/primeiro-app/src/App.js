@@ -1,26 +1,15 @@
 import './App.css'
-import OlaMundo from './componentes/OlaMundo'
-import SayMyName from './componentes/SayMyName'
-import Pessoa from './componentes/Pessoa'
+import Evento from './componentes/Eventos';
+import Form from './componentes/Form';
 
 function App() {
 
-  const nome = 'maria'
-
   return (
     <div className="App">
-      <OlaMundo/>
-      <SayMyName nome='cleber' />
-      <SayMyName nome='Jão' />
-      <SayMyName nome={nome} />
-
-      <Pessoa
-        nome='Cleber'
-        idade='19 anos'
-        profissao='estudante'
-        foto='https://via.placeholder.com/150'
-      />
-
+      <h1>Testando Eventos</h1>
+      <Evento numero="1"/>
+      <Evento numero="2"/>
+      <Form />
     </div>
   );
 }
