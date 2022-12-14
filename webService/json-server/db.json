@@ -1,0 +1,26 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Cleber de Almeida",
+      "serie": "3 ano",
+      "nota": 9.3,
+      "aprovado": true
+    },
+    {
+      "id": 2,
+      "nome": "Andrea"
+    },
+    [
+      {
+        "serie": "3 ano",
+        "nota": 5.3,
+        "aprovado": true
+      },
+      {
+        "id": 8,
+        "nome": "Antonio"
+      }
+    ]
+  ]
+}
